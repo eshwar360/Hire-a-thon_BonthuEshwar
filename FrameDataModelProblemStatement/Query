@@ -1,0 +1,5 @@
+select Branch.BranchId from Branch Join [Order]
+on Branch.BranchId = [Order].BranchId
+group by Branch.BrachId,[Order].OrderId
+order by [Order].Ordertime-[Order].CustomerDeliveredtime
+limit 1;
