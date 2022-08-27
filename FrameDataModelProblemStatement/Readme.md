@@ -8,5 +8,5 @@ Just used join,group by and order by clasuse in the query
 Sql,Er diagrams
 
 #How to run
-Run in where you can run sql query
+Run any where you can run sql query
 
